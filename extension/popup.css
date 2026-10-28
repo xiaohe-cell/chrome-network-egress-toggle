@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  min-width: 240px;
+  font-family: system-ui, "Microsoft YaHei", sans-serif;
+  color: #202124;
+}
+
+main { padding: 16px; }
+h1 { margin: 0 0 8px; font-size: 17px; }
+p { margin: 0 0 12px; color: #5f6368; }
+
+button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.proxy { background: #1a73e8; }
+.direct { background: #137333; }
+button.active { outline: 3px solid #fbbc04; }
+small { display: block; margin-top: 10px; color: #5f6368; line-height: 1.4; }
+

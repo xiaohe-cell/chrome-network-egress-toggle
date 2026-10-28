@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome 代理 / 直连切换",
+  "version": "1.0.0",
+  "description": "在常开 Mihomo / Clash Verge 的情况下，一键切换当前 Chrome 配置文件的代理出口或直连出口。",
+  "permissions": ["proxy", "storage"],
+  "action": {
+    "default_title": "代理 / 直连切换",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
